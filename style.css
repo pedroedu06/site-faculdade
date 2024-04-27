@@ -1,0 +1,46 @@
+body {
+    background-color: gray;
+    color: white;
+    font-family: Arial;
+}
+.borde {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.caracterHome {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.caracterCuriosidades {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.head {
+    background-image: url(imagens/dancadramatica.jpg);
+    height: 400px;
+    width: 1856px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+.texto {
+    font-size: 80px;
+    text-align: center;
+    top: 35%;
+    left: 0%;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.808);
+    backdrop-filter: blur(2px);
+    padding: 10px;
+}
+.teste {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    display: none;
+}
